@@ -1,5 +1,5 @@
 # Javascript Belly Buttons
-# Visit https://jakatz87/github.io/Javascript_Belly_Buttons
+# Visit https://jakatz87.github.io/Javascript_Belly_Buttons
 
 ## Overview
 Given a JSON file of samples from a study on bacteria found in belly buttons, I created an interactive web dashboard using Javascript and HTML.
