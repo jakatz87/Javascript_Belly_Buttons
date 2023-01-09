@@ -136,7 +136,7 @@ function buildCharts(sample) {
         type: "indicator",
         mode: "gauge+number",
         gauge: {
-          axis: {range: [null, 10]},
+          axis: {range: [null, 10], labels: {interval:2}},
           steps: [
             {range: [0,2], color: "red"},
             {range: [2,4], color: "orange"},
@@ -150,8 +150,8 @@ function buildCharts(sample) {
     ]
     // Deliverable 3: 5. Create the layout for the gauge chart.
     var layoutg = {
-      width: 450,
-      height: 400,
+      width: 460,
+      height: 350,
       margin: {t:0,b:0}
     };
     // Deliverable 3: 6. Use Plotly to plot the gauge data and layout.
