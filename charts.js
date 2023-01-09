@@ -136,7 +136,7 @@ function buildCharts(sample) {
         type: "indicator",
         mode: "gauge+number",
         gauge: {
-          axis: {range: [null, 10], labels: {interval:2}},
+          axis: {range: [null, 10]},
           steps: [
             {range: [0,2], color: "red"},
             {range: [2,4], color: "orange"},
